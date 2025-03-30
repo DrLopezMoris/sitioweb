@@ -121,7 +121,7 @@ export default function Header() {
             <div className="flex items-center cursor-pointer -ml-4 gap-2 border-r-1 border-primary hover:text-[#191919] transition-colors ">
               <FaEnvelope className="text-xl sm:text-2xl text-[#00917d]" />
               <a href="mailto:drlopezmoris@gmail.com" className="text-lg font-light mr-8 md:text-base truncate max-w-[200px] lg:max-w-none">
-                drcarloslopezmoris@gmail.com
+                drlopezmoris@gmail.com
               </a>
             </div>
           </div>
@@ -248,7 +248,7 @@ export default function Header() {
             <div className="flex items-center gap-2 py-2">
               <FaEnvelope className="text-xl text-[#383b60]" />
               <a href="mailto:drcarloslopezmoris@gmail.com" className="text-base font-normal">
-                drcarloslopezmoris@gmail.com
+                drlopezmoris@gmail.com
               </a>
             </div>
             
@@ -257,7 +257,7 @@ export default function Header() {
               
               <div className="flex flex-col text-sm pl-2 space-y-1">
                 <div className="flex items-center">
-                  <FaMapMarkerAlt className="mr-2 text-red-500"/> 
+                  <FaMapMarkerAlt className="mr-2 text-primary"/> 
                   <span className="font-medium">CEMIC</span> 
                 </div>
                 <div className="flex items-center text-gray-600">
