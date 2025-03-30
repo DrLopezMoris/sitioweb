@@ -47,7 +47,7 @@ export default function Footer() {
             {/* Redes sociales */}
             <div className="flex space-x-4 mb-6 my-4">
               <a 
-                href="https://instagram.com/drlopezmoris" 
+                href="https://www.instagram.com/dr.lopezmoris.rinologia?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="bg-white bg-opacity-10 hover:bg-[#2bc37f] w-10 h-10 rounded-full flex items-center justify-center transition-colors duration-300"
@@ -56,7 +56,7 @@ export default function Footer() {
                 <FaInstagram className="text-xl" />
               </a>
               <a 
-                href="https://linkedin.com/in/drcarloslopezmoris" 
+                href="https://www.linkedin.com/in/carlos-b-l%C3%B3pez-moris-225a0655/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="bg-white bg-opacity-10 hover:bg-[#2bc37f] w-10 h-10 rounded-full flex items-center justify-center transition-colors duration-300"
