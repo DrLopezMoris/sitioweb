@@ -2,6 +2,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Montserrat } from "next/font/google";
 import { FaWhatsapp, FaEnvelope, FaMapMarkerAlt, FaClock, FaBars, FaTimes } from "react-icons/fa";
 
@@ -40,7 +41,7 @@ const Logo = ({ className = "" }) => (
     rel="home" 
     className={`flex items-center ${className}`}
   >
-    <img 
+    <Image 
       src="/iso-moris.png" 
       alt="Logo Dr. López Moris" 
       width={80} 
@@ -99,53 +100,54 @@ export default function Header() {
     <header className={`min-w-full ${montserrat.variable}`}>
       {/* Header Superior - visible en tablets y desktop */}
       <div
-        className={`hidden md:block fixed top-0 left-0 w-full bg-white text-[#191919] text-sm z-50 transition-transform duration-300 ${
+        className={`hidden lg:block fixed top-0 left-0 w-full bg-white text-[#191919] text-sm z-50 transition-transform duration-300 ${
           hideTopHeader ? '-translate-y-full' : 'translate-y-0'
         }`}
       >
-        <div className="container mx-auto px-4 lg:px-6 flex justify-between items-center h-20">
+        <div className="lg:container mx-auto px-4 lg:px-6 flex justify-between items-center h-20">
           {/* COLUMNA IZQUIERDA - Logo */}
           <div className="flex ml-8 items-center w-48">
             <Logo />
           </div>
 
           {/* COLUMNA CENTRAL - Información de contacto */}
-          <div className="flex flex-wrap ml-20 justify-center gap-6 items-center">
+          <div className="flex flex-wrap ml-20 justify-center gap-4 items-center">
             <div className="flex items-center cursor-pointer gap-2  mx-6 transition-colors border-l-1 border-r-1 border-primary">
               <FaWhatsapp className="text-2xl ml-6 text-[#00917d] hover:text-green-500" />
-              <a href="https://wa.me/5491172003461" className="tabular-nums text-lg mr-8 md:text-lg font-normal whitespace-nowrap">
+              <a href="https://wa.me/5491172003461" className="tabular-nums text-lg mr-8 md:text-base font-normal whitespace-nowrap">
                 +54 9 11 7200 3461
               </a>
             </div>
             <div className="flex items-center cursor-pointer -ml-4 gap-2 border-r-1 border-primary hover:text-[#191919] transition-colors ">
               <FaEnvelope className="text-xl sm:text-2xl text-[#00917d]" />
-              <a href="mailto:drcarloslopezmoris@gmail.com" className="text-lg font-light mr-8 truncate max-w-[200px] lg:max-w-none">
+              <a href="mailto:drlopezmoris@gmail.com" className="text-lg font-light mr-8 md:text-base truncate max-w-[200px] lg:max-w-none">
                 drcarloslopezmoris@gmail.com
               </a>
             </div>
           </div>
 
           {/* COLUMNA DERECHA - Ubicaciones y horarios */}
-          <div className="hidden lg:flex items-center gap-6">
+          
+          <div className="hidden lg:flex items-center gap-4">
             {/* CEMIC */}
             <div className="flex flex-col items-start">
-              <div className="flex items-center text-sm hover:text-blue-500 transition-colors">  
+              <div className="flex pl-2 items-center text-sm hover:text-blue-500 transition-colors">  
                 <FaMapMarkerAlt className="mr-1 text-[#00917d]"/> 
                 <span className="font-medium">CEMIC</span> 
               </div>
-              <div className="flex items-center text-sm hover:text-blue-500 transition-colors">
+              <div className="flex items-center text-sm hover:text-blue-500 transition-colors ml-2">
                 <FaClock className="mr-1 text-gray-600"/>
                 <span>Mar - Jue - Vie: 14:00 - 17:00</span>
               </div>
             </div>
 
             {/* Consultorio */}
-            <div className="flex flex-col items-start">
-              <div className="flex items-center text-sm hover:text-blue-500 transition-colors">  
+            <div className="flex flex-col items-start ">
+              <div className="flex pl-2 items-center text-sm hover:text-blue-500 transition-colors">  
                 <FaMapMarkerAlt className="mr-1 text-[#00917d]"/> 
-                <span className="font-medium">Consultorio</span> 
+                <span className="font-medium">Dr. López Moris</span> 
               </div>
-              <div className="flex items-center text-sm hover:text-blue-500 transition-colors">
+              <div className="flex items-center text-sm hover:text-blue-500 transition-colors ml-2">
                 <FaClock className="mr-1 text-gray-600"/>
                 <span>Mie: 8:00 - 19:30</span>
               </div>
@@ -157,18 +159,18 @@ export default function Header() {
       {/* Navbar principal - adaptable a distintos tamaños */}
       <Navbar
         className={`fixed w-full bg-white left-0 shadow-md z-40 transition-all duration-300 ${
-          hideTopHeader ? 'top-0' : 'md:top-20'
+          hideTopHeader ? 'top-0' : 'lg:top-20'
         }`}
       >
         <div className="container mx-auto px-4 lg:px-6 flex justify-between items-center h-20">
           {/* COLUMNA IZQUIERDA - Nombre del doctor con fuente Montserrat */}
           <NavbarContent className="flex items-center" justify="start">
             {/* Logo solo visible en mobile */}
-            <div className="md:hidden">
+            <div className="lg:hidden">
               <Logo className="scale-90" />
             </div>
             {/* Nombre del doctor */}
-            <div className="hidden md:block pl-0 sm:pl-4 lg:pl-0">
+            <div className="hidden lg:block pl-0 sm:pl-4 lg:pl-0">
               <Link 
                 href="/" 
                 className={`text-lg font-semibold ${montserrat.className} text-[#191919]`}
@@ -179,7 +181,7 @@ export default function Header() {
           </NavbarContent>
 
           {/* COLUMNA CENTRAL - Menú de navegación - visible en desktop */}
-          <NavbarContent className="hidden md:flex gap-6 mx-auto">
+          <NavbarContent className="hidden lg:flex gap-6 mx-auto">
             {navigationLinks.map(link => (
               <NavbarItem key={link.path}>
                 <Link 
@@ -197,7 +199,7 @@ export default function Header() {
             <Button
               as="a"
               href="https://wa.me/5491172003461"
-              className="hidden md:flex bg-[#2bc37f] text-white font-semibold text-base px-8 py-4 rounded-sm hover:bg-[#25a36d] transition-colors"
+              className="hidden lg:flex bg-[#2bc37f] text-white font-semibold text-base px-8 py-4 rounded-sm hover:bg-[#25a36d] transition-colors"
               variant="bordered">
               Agendar cita
             </Button>
@@ -205,7 +207,7 @@ export default function Header() {
             {/* Botón de menú móvil */}
             <Button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="md:hidden flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-gray-900 focus:outline-none"
+              className="lg:hidden flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-gray-900 focus:outline-none"
             >
               {mobileMenuOpen ? (
                 <FaTimes className="h-6 w-6" />
@@ -266,8 +268,8 @@ export default function Header() {
               
               <div className="flex flex-col text-sm pl-2 space-y-1">
                 <div className="flex items-center">
-                  <FaMapMarkerAlt className="mr-2 text-red-500"/> 
-                  <span className="font-medium">Consultorio</span> 
+                  <FaMapMarkerAlt className="mr-2 text-primary"/> 
+                  <span className="font-medium">Dr. López Moris</span> 
                 </div>
                 <div className="flex items-center text-gray-600">
                   <FaClock className="mr-2"/>

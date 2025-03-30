@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Image from 'next/image';
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
@@ -14,16 +15,16 @@ export default function PerfilView() {
     <section className="w-full max-w-7xl mx-auto px-4 py-6">
       {/* Professional Profile Header */}
       <div className="w-full border-b-2 border-primary pb-6 mb-6">
-        <div className="text-center">
-          <h3 className="text-lg font-light text-[#51c1aa] mb-2">
+        <div className="text-left">
+          <h3 className="text-lg px-4 font-light text-[#51c1aa] mb-2">
             Perfil Profesional
           </h3>
           
-          <h2 className="text-2xl md:text-4xl font-semibold mb-4">
-            Otorrinolaringólogo
+          <h2 className="text-2xl px-4 md:text-4xl font-semibold mb-4">
+            Otorrinolaringólogo | Especialista en Rinología
           </h2>
           
-          <p className="italic text-sm md:text-base px-4 max-w-2xl mx-auto">
+          <p className="italic text-sm md:text-base px-4 max-w-2xl ">
             "Me caracterizo por brindarle a mis pacientes un trato cercano y transparente, 
             y si lo necesitas, estoy acá para ayudarte."
           </p>
@@ -45,12 +46,14 @@ export default function PerfilView() {
             }}
             className="w-full aspect-square max-w-[600px] mx-auto"
           >
-            {["/imagen1.png", "/imagen2.png", "/lm1.webp"].map((src, index) => (
+            {["/perfil2.jpg", "/perfil1.jpg", "/perfil3.jpg"].map((src, index) => (
               <SwiperSlide key={index} className="flex items-center justify-center">
-                <img
+                <Image
                   src={src}
                   alt={`Foto ${index + 1}`}
-                  className="object-cover w-full h-full rounded-lg shadow-md"
+                  width={600}
+                  height={300}
+                  className="object-scale-down w-full h-full rounded-lg shadow-md"
                 />
               </SwiperSlide>
             ))}

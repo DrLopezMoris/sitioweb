@@ -29,7 +29,7 @@ export default function PerfilPage() {
       <div className="container mx-auto px-4 py-12">
         {/* Sección de Presentación Personal */}
         <section className="grid md:grid-cols-2 gap-12 mb-16 items-center">
-          <div className="flex flex-col justify-center">
+          <div className="flex flex-col ">
             <h1 className={`text-4xl font-bold mb-4 ${montserrat.className} text-[#212442]`}>
               Dr. Carlos López Moris
             </h1>

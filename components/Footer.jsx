@@ -36,16 +36,16 @@ export default function Footer() {
               />
               <div>
                 <h3 className={`text-xl font-bold ${montserrat.className}`}>Dr. Carlos López Moris</h3>
-                <p className="text-gray-300 text-sm">Médico Otorrinolaringólogo</p>
+                <p className="text-gray-300 text-sm">Médico Otorrinolaringólogo | Especialista en Rinología</p>
               </div>
             </div>
             
-            <p className="text-gray-300 mb-6">
-              Especialista en Rinología con más de 15 años de trayectoria profesional, brindando atención médica de excelencia.
+            <p className="text-gray-300 mb-6 my-4">
+              Con más de 15 años de trayectoria profesional, brindando atención médica de excelencia.
             </p>
             
             {/* Redes sociales */}
-            <div className="flex space-x-4 mb-6">
+            <div className="flex space-x-4 mb-6 my-4">
               <a 
                 href="https://instagram.com/drlopezmoris" 
                 target="_blank" 
@@ -77,9 +77,9 @@ export default function Footer() {
           </div>
           
           {/* Columna 2: Enlaces rápidos */}
-          <div className="flex flex-col">
+          <div className="flex flex-col lg:pl-6 lg:ml-10">
             <h3 className={`text-xl font-bold mb-6 ${montserrat.className}`}>Enlaces rápidos</h3>
-            <nav className="grid grid-cols-1 md:grid-cols-2 gap-y-3 gap-x-8">
+            <nav className="grid grid-cols-1 gap-y-3 gap-x-8">
               <Link href="/" className="text-gray-300 hover:text-[#2bc37f] transition-colors flex items-center">
                 <span className="w-1.5 h-1.5 bg-[#2bc37f] rounded-full mr-2"></span>
                 Inicio
@@ -93,7 +93,7 @@ export default function Footer() {
                 Reconocimientos
               </Link>
               
-              <Link href="/preguntas-frecuentes" className="text-gray-300 hover:text-[#2bc37f] transition-colors flex items-center">
+              <Link href="/preguntas" className="text-gray-300 hover:text-[#2bc37f] transition-colors flex items-center">
                 <span className="w-1.5 h-1.5 bg-[#2bc37f] rounded-full mr-2"></span>
                 Preguntas Frecuentes
               </Link>
@@ -110,18 +110,22 @@ export default function Footer() {
                 <FaMapMarkerAlt className="text-[#2bc37f] mt-1 mr-3" />
                 <div>
                   <p className="font-semibold">CEMIC</p>
-                  <p className="text-gray-300 text-sm">Av. Las Heras 2900, Buenos Aires</p>
+                  <p className="text-gray-300 text-sm">Av. Las Heras 2900. Palermo, Buenos Aires</p>
                   <p className="text-gray-300 text-sm">Mar - Vie: 14:00 - 17:00</p>
                   <p className="text-gray-300 text-sm">Talcahuano 1234, Buenos Aires</p>
                   <p className="text-gray-300 text-sm">Jue: 14:00 - 17:00</p>
                 </div>
               </div>
+              <a href="https://wa.me/5491152990000" className="flex items-center hover:text-[#2bc37f] transition-colors">
+                <FaPhone className="text-[#2bc37f] mr-3" />
+                <span>+54 15 5299-0000</span>
+              </a>
               
               <div className="flex items-start">
                 <FaMapMarkerAlt className="text-[#2bc37f] mt-1 mr-3" />
                 <div>
                   <p className="font-semibold">Dr. López Moris</p>
-                  <p className="text-gray-300 text-sm">Pereyra Lucena 2535, Pb, "A", Buenos Aires</p>
+                  <p className="text-gray-300 text-sm">Pereyra Lucena 2535, Pb, "A". Palermo, Buenos Aires</p>
                   <p className="text-gray-300 text-sm">Mie: 8:00 - 19:30</p>
                 </div>
               </div>
@@ -133,7 +137,7 @@ export default function Footer() {
               
               <a href="mailto:drcarloslopezmoris@gmail.com" className="flex items-center hover:text-[#2bc37f] transition-colors">
                 <FaEnvelope className="text-[#2bc37f] mr-3" />
-                <span>drcarloslopezmoris@gmail.com</span>
+                <span>drlopezmoris@gmail.com</span>
               </a>
               
               <a 
