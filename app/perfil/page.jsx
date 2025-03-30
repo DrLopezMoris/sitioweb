@@ -55,7 +55,7 @@ export default function PerfilPage() {
           
           <div className="flex justify-center">
             <Image 
-              src="/perfil.jpeg" 
+              src="/perfil.jpg" 
               alt="Dr. Carlos López Moris" 
               width={300}  // Ancho deseado (obligatorio)
               height={150}  // Alto deseado (obligatorio)
