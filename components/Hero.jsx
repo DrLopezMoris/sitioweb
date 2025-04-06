@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/image';
+
 import { Button } from "@heroui/react";
 import Link from "next/link";
 import { Lato, Montserrat } from "next/font/google";
@@ -24,7 +24,7 @@ export default function Hero() {
     return (
         <section className={`relative max-h-[85vh] w-full overflow-hidden ${lato.variable} ${montserrat.variable}`}>
             {/* Imagen de fondo con overlay para mejorar legibilidad del texto */}
-            <div className="absolute inset-0 -z-10">
+            {/*<div className="absolute inset-0 -z-10">
                 <div className="absolute inset-0 bg-black opacity-60 z-10"></div>
                 <Image 
                   src="/banner1.jpg" // Reemplaza con la ruta correcta a la imagen del doctor
@@ -33,7 +33,7 @@ export default function Hero() {
                   height={1080}
                   className="object-cover w-full h-full"
                 />
-            </div>
+            </div>*/}
 
             {/* Contenedor principal centrado */}
             <div className="container mx-auto px-4 h-screen flex flex-col justify-center items-center text-center">

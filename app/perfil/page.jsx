@@ -72,11 +72,13 @@ export default function PerfilPage() {
             </h2>
             <div className="text-lg">
               <p className="mb-4">
-                Soy el Dr. Carlos López Moris, médico otorrinolaringólogo especializado en Rinología y Cirugía Estética Facial.
+                Soy el Dr. Carlos López Moris, médico otorrinolaringólogo especializado en Rinología, Cirugía Estética Facial y Medicina Estética y Reparadora.
               </p>
               
               <p className="mb-4">
-                Me recibí de médico en la Universidad Nacional de Tucumán (UNT) y me especialicé como otorrinolaringólogo en la Universidad de Buenos Aires (UBA). Me apasiona mi trabajo, y por ello decidí formarme con un posgrado en Rinología y Cirugía Facial en la UNAM (México) y un diplomado en Inteligencia Artificial aplicada en Medicina por la Universidad Favaloro.
+                Me recibí de médico de la Universidad Nacional de Tucumán (UNT) y me especialicé en Otorrinolaringología en la Universidad de Buenos Aires (UBA). 
+                Posteriormente, completé un posgrado en Rinología y Cirugía Facial en la UNAM, un diplomado en Medicina del Sueño en la Universidad Austral, 
+                y un diplomado en Inteligencia Artificial aplicada a la Medicina por la Universidad Favaloro.
               </p>
               
               <p className="mb-4">
@@ -90,7 +92,7 @@ export default function PerfilPage() {
             <div className="grid md:grid-cols-2 gap-6">
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <h4 className={`text-xl mb-3 ${montserrat.className} text-[#212442]`}>
-                  Cirugías Nasales
+                  Cirugías Nasales:
                 </h4>
                 <p>
                   Me especializo en cirugías de baja y alta complejidad, abordando casos que requieren mejorar la función nasal: desde insuficiencia ventilatoria, desvíos nasales, poliposis y sinusitis crónicas, hasta casos más complejos como secuelas de traumatismos, cirugías previas, perforaciones septales y malformaciones.
@@ -99,7 +101,7 @@ export default function PerfilPage() {
               
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <h4 className={`text-xl mb-3 ${montserrat.className} text-[#212442]`}>
-                  Rinología Funcional y Estética
+                  Rinología Funcional y Estética:
                 </h4>
                 <p>
                   Para mí, una nariz saludable es aquella que respira y se ve bien. Abordo casos de obstrucciones respiratorias crónicas y correcciones estéticas, siempre con un enfoque integral y personalizado.

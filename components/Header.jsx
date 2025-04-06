@@ -158,7 +158,7 @@ export default function Header() {
 
       {/* Navbar principal - adaptable a distintos tamaños */}
       <Navbar
-        className={`fixed w-full bg-white left-0 shadow-md z-40 transition-all duration-300 ${
+        className={`fixed w-full left-0 shadow-md bg-white z-40 transition-all duration-300 ${
           hideTopHeader ? 'top-0' : 'lg:top-20'
         }`}
       >

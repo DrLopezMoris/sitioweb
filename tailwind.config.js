@@ -28,6 +28,7 @@ module.exports = {
             foreground: "#ffffff", // Color contrastante
             DEFAULT: "#00917d", // Color principal
           },
+          
           background: {
             50: "#ffffff",
             100: "#f7f7f7",
@@ -92,15 +93,16 @@ module.exports = {
           colors: {
             // Fondo principal del sitio (suave, para no ser agresivo con la vista)
             background: "#efr9e1", // Fondo para el tema claro (un amarillo claro, cálido, similar a un tono pastel)
-  
+            
+          
             // Color de texto principal (oscuro para asegurar legibilidad)
             foreground: "#171717", // Color de texto para el tema claro (un gris muy oscuro, casi negro, ideal para legibilidad)
 
             // Color principal de la marca (verde fresco, natural)
-            primary: "#00917d", // Color principal para el tema claro (un verde suave que evoca naturaleza y frescura)
+            primary: "#2bc37f", // Color principal para el tema claro (un verde suave que evoca naturaleza y frescura)
 
             // Color secundario, ideal para resaltar botones, enlaces, etc. (energético y llamativo)
-            secondary: "#2bc37f", // Otro color personalizado para el tema claro (un rosa fuerte que funciona bien para llamar la atención)
+            secondary: "#00917d", // 00917d Otro color personalizado para el tema claro (un rosa fuerte que funciona bien para llamar la atención)
 
             // Colores de apoyo y de fondo (neutros, para balancear)
             backgroundSecondary: "#ffffff", // Fondo secundario (blanco, para áreas como tarjetas, modales, etc.)

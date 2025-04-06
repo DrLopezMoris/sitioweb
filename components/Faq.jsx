@@ -1,8 +1,8 @@
 // components/FAQ.jsx
 const FAQ = () => {
     return (
-      <section id="faq" className="py-12 px-4 md:px-8">
-        <div className="max-w-4xl mx-auto">
+      <section id="faq" className="z-10 bg-gray-50 py-12 px-4 md:px-8">
+        <div className="max-w-4xl mx-auto shadow-lg rounded-lg">
           <h2 className="text-3xl font-bold text-center">Preguntas Frecuentes</h2>
           <div className="mt-8 space-y-4">
             <div className="border-b pb-4">
@@ -38,7 +38,7 @@ const FAQ = () => {
               href="/preguntas" 
               className="inline-flex items-center text-[#2bc37f] hover:text-[#25a36d] font-medium transition-colors"
             >
-              Ver todos las preguntas.
+              Ver todas las preguntas.
               <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
               </svg>

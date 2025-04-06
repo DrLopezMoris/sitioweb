@@ -13,10 +13,10 @@ export default function PreguntasPage() {
     return (
         <main className="flex flex-col min-h-screen">
             <Header />
-            <div className="flex-grow container mx-auto px-4 py-12">
-                <div className="max-w-4xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
+            <div className="flex-grow container mx-auto px-4 py-12 ">
+                <div className="max-w-4xl mx-auto bg-gray-50 shadow-lg rounded-lg overflow-hidden">
                     <div className="px-6 py-8">
-                        <h1 className="text-4xl font-bold text-gray-800 mb-6 text-center">
+                        <h1 className="text-4xl font-bold text-secondary mb-6 text-center">
                             Preguntas Frecuentes
                         </h1>
                         

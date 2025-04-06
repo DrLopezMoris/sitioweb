@@ -1,10 +1,11 @@
 import { Montserrat, Roboto_Slab } from "next/font/google";
 import "./globals.css";
 
+// CARGA DE FUENTES
 const montserrat = Montserrat({
   variable: "--font-montserrat",
   subsets: ["latin"],
-  weight: ["400", "700"], // Agregar pesos de la fuente
+  weight: ["400", "700"],
 });
 
 const robotoSlab = Roboto_Slab({
@@ -13,39 +14,67 @@ const robotoSlab = Roboto_Slab({
   weight: ["400", "700"],
 });
 
+// SEO METADATA
 export const metadata = {
-  title: "Dr. Lopez Moris - Otorrinolaringólogo Especialista en Rinología.", // 🔹 TÍTULO PRINCIPAL
-  description: "Soy el Dr. Carlos López Moris, médico otorrinolaringólogo especializado en Rinología y Cirugía Estética Facial.", // 🔹 DESCRIPCIÓN DE LA WEB
-  keywords: "cirugía, salud, medicina, especialista, doctor, tratamientos, Buenos Aires, otorrino, otorrinolaringologo, rinoplastia, nariz, cemic, rinologia, belleza, cirugia estetica, cirugia facial, Argentina, caba, medico en caba", // 🔹 PALABRAS CLAVE
-  authors: [{ name: "Sintergia Studio", url: "https://sintergia.com" }], // 🔹 AUTOR
+  metadataBase: new URL("https://drlopezmoris.com"),
+  title: "Dr. Lopez Moris - Otorrinolaringólogo Especialista en Rinología.",
+  description:
+    "Soy el Dr. Carlos López Moris, médico otorrinolaringólogo especializado en Rinología y Cirugía Estética Facial.",
+  keywords:
+    "cirugía, salud, medicina, especialista, doctor, medico, tratamientos, buenos aires, argentina, otorrino, otorrinolaringologo, rinoplastia, nariz, cemic, rinologia, belleza, cirugia estetica, cirugia facial, Argentina, caba, medico en caba, rinoplastia Buenos Aires, cirugía de nariz Buenos Aires,",
+  authors: [{ name: "Sintergia Studio", url: "https://sintergia.com" }],
+  applicationName: "Dr. López Moris",
+  generator: "Next.js",
+  referrer: "origin-when-cross-origin",
+  robots: {
+    index: true,
+    follow: true,
+    nocache: false,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+  },
+  themeColor: "#ffffff",
+  alternates: {
+    canonical: "https://drlopezmoris.com",
+  },
   openGraph: {
-    title: "Dr. Lopez Moris - Otorrinolaringólogo Especialista en Rinología.", // 🔹 TÍTULO PARA COMPARTIR EN REDES
-    description: "Conoce más sobre los tratamientos innovadores del Dr. Lopez Moris.", // 🔹 DESCRIPCIÓN PARA REDES
-    url: "https://drlopezmoris.com", // 🔹 URL DE LA WEB
+    title: "Dr. Lopez Moris - Otorrinolaringólogo Especialista en Rinología.",
+    description:
+      "Conoce más sobre los tratamientos innovadores del Dr. Lopez Moris.",
+    url: "https://drlopezmoris.com",
     siteName: "Dr. López Moris",
     images: [
       {
-        url: "/imagen1.png", // 🔹 IMAGEN PARA REDES SOCIALES (Ubicada en `/public/`)
+        url: "/imagen1.png",
         width: 1200,
         height: 630,
         alt: "Dr. Lopez Moris",
       },
     ],
-    type: "website", // 🔹 TIPO DE CONTENIDO (Puede ser "website", "article", etc.)
+    locale: "es_AR",
+    type: "website",
   },
   twitter: {
-    card: "summary_large_image", // 🔹 FORMATO PARA TWITTER (imagen grande)
-    site: "@DrLopezMoris", // 🔹 CUENTA DE TWITTER OFICIAL
-    creator: "@SintergiaStudio", // 🔹 CRÉDITO DEL CREADOR
+    card: "summary_large_image",
+    site: "@DrLopezMoris",
+    creator: "@SintergiaStudio",
+    title: "Dr. Lopez Moris - Otorrinolaringólogo Especialista en Rinología.",
+    description:
+      "Conoce más sobre los tratamientos innovadores del Dr. Lopez Moris.",
+    images: ["/imagen1.png"],
   },
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="es">
       <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" type="image/png" href="/fav.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/fav.png" type="image/png" />
+        <meta name="theme-color" content="#ffffff" />
+        <meta name="author" content="Sintergia Studio" />
       </head>
       <body
         className={`${montserrat.variable} ${robotoSlab.variable} antialiased`}
@@ -55,4 +84,3 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
-
