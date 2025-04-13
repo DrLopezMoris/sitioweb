@@ -48,13 +48,13 @@ export default function Hero() {
                     <h3 className="text-xl md:text-2xl text-white font-light mb-8 drop-shadow-md">
                         Médico Otorrinolaringólogo - Especialista en Rinología
                     </h3>
-                    
+                    ''
                     {/* Decoración */}
                     <div className="w-20 h-[0.2rem] bg-[#2bc37f] mx-auto mb-10"></div>
                     
                     {/* Texto descriptivo opcional */}
                     <p className="text-white text-lg md:text-xl mb-10 max-w-2xl mx-auto font-light">
-                        Experiencia y profesionalismo en tratamientos de rinoplastia 
+                        Experiencia y profesionalismo en rinoplastia funcional
                         y patologías nasales en Buenos Aires.
                     </p>
 

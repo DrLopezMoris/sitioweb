@@ -40,30 +40,58 @@ export default function PreguntasPage() {
                             <div className="border-b pb-4">
                                 <h3 className="text-xl font-semibold">¿Qué cuidados debo tener?</h3>
                                 <p className="mt-2 text-gray-600">
-                                    Se recomienda seguir las indicaciones del médico para garantizar una recuperación óptima.
+                                    Conviene guardar reposo los primeros 7 días o hacer actividades muy tranquilas. 
+                                    No hace falta estar en la cama. Para actividades físicas aeróbicas se recomienda esperar 3 semanas. 
+                                    Para actividades intensas anaeróbicas conviene esperar un mes.
                                 </p>
+                            </div>
+                            <div>
+                            <h3 className="text-xl font-semibold">Instrucciones para el postoperatorio. </h3>
+                                    <ul class="list-disc pl-5 space-y-2 text-gray-600"> {/* Clases Tailwind para estilo */}
+                                        <li>
+                                        Debe evitar sonarse la nariz, en cambio, puede inspirar profundamente por la nariz sin riesgos.
+                                        </li>
+                                        <li>
+                                        Si desea toser o estornudar, debe hacerlo con la boca abierta.
+                                        </li>
+                                        <li>
+                                        Es normal presentar alteraciones de la sensibilidad a nivel de los incisivos centrales los primeros días del postoperatorio, esta sensación mejorará con el correr de los días.
+                                        </li>
+                                        <li>
+                                        En el caso de las rinoplastias es recomendable colocarse hielo local cada 2hs.
+                                        </li>
+                                        <li>
+                                        Se recomienda dormir con la cabecera elevada de la cama las primeras 72hs.
+                                        </li>
+                                        <li>
+                                        Es normal y esperable durante las primeras 72 hs. recambiar la gasa colectora (la que se encuentra por debajo de la nariz) las veces que sea necesario para mantener la higiene y evitar mancharse. Cuando cese el sangrado y las secreciones, se podrá quedar sin gasa colectora (generalmente a las 24hs).
+                                        </li>
+                                    </ul>
                             </div>
 
                             <div className="border-b pb-4">
-                                <h3 className="text-xl font-semibold">¿Cuál es la duración de una rinoplastía?</h3>
+                                <h3 className="text-xl font-semibold">¿Cuál es la duración de una cirugía nasal?</h3>
                                 <p className="mt-2 text-gray-600">
-                                    En el caso de una rinoplastía primaria, el procedimiento suele tomar alrededor de 2 horas. Si se trata de una cirugía reconstructiva (secundaria o de revisión), el tiempo puede extenderse hasta 3 horas.
+                                    Cada caso es particular y debe evaluarse de manera personalizada. 
+                                    En el caso de las patologías funcionales el tiempo quirúrgico es menor que en los procedimientos estéticos. 
+                                    Por lo general, el promedio para una cirugía funcional nasal es de 2hs y para los procedimientos estéticos de 3hs. 
+                                    Estos tiempos son estimativos y pueden prolongarse o acortarse según cada caso particular
                                 </p>
                             </div>
                             <div className="border-b pb-4">
                                 <h3 className="text-xl font-semibold">¿Cuánto tiempo tengo que estar internado?</h3>
                                 <p className="mt-2 text-gray-600">
-                                Se trata de una intervención ambulatoria. El tiempo total de internación suele ser de una hora antes y tres horas después de la cirugía.
+                                Habitualmente se trata de una intervención ambulatoria. 
+                                El tiempo total de internación suele ser de una hora antes y tres horas después de la cirugía
                                 </p>
                             </div>
 
                             <div className="border-b pb-4">
                                 <h3 className="text-xl font-semibold">¿Es doloroso?</h3>
                                 <p className="mt-2 text-gray-600">
-                                    El postoperatorio de la rinoplastía no suele ser doloroso en la mayoría de los casos. De hecho, muchos pacientes no requieren analgésicos fuertes después de la cirugía. Lo más común es sentir:
-                                    Molestias leves (como una sensación de congestión nasal, similar a un resfrío).
-                                    Presión en la zona, pero no dolor agudo.
-                                    Si aparece alguna molestia, se puede manejar fácilmente con analgésicos comunes (como ibuprofeno o diclofenac). 
+                                    El postoperatorio de la rinoplastía no suele ser doloroso. La mayoría de los pacientes no requieren analgésicos fuertes después de la cirugía. 
+                                    Lo más frecuente es sentir molestias leves (como una sensación de congestión nasal, similar a un resfrío). Puede sentir presión en la zona, pero no dolor agudo. 
+                                    Si aparece alguna molestia, se puede manejar fácilmente con analgésicos comunes (como ibuprofeno o diclofenac).     
                                 </p>
                             </div>
 

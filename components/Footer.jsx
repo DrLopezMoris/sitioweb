@@ -135,9 +135,9 @@ export default function Footer() {
                 <span>+54 11 7200-3461</span>
               </a>
               
-              <a href="mailto:drcarloslopezmoris@gmail.com" className="flex items-center hover:text-[#2bc37f] transition-colors">
+              <a href="mailto:contacto@drlopezmoris.com" className="flex items-center hover:text-[#2bc37f] transition-colors">
                 <FaEnvelope className="text-[#2bc37f] mr-3" />
-                <span>drlopezmoris@gmail.com</span>
+                <span>contacto@drlopezmoris.com</span>
               </a>
               
               <a 

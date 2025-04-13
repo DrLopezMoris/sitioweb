@@ -78,8 +78,8 @@ export default function Reconocimientos() {
           viewport={{ once: true }}
         >
           <div className="flex justify-center items-center mb-6">
-            <FaTrophy className="text-[#2bc37f] text-4xl mr-3" />
-            <h2 className="text-4xl font-bold text-gray-800">
+            <FaTrophy className="text-[#FFD700] text-4xl mr-3" />
+            <h2 className="text-4xl font-bold text-secondary">
               Mi Formación y Reconocimientos
             </h2>
           </div>

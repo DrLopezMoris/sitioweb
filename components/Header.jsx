@@ -120,8 +120,8 @@ export default function Header() {
             </div>
             <div className="flex items-center cursor-pointer -ml-4 gap-2 border-r-1 border-primary hover:text-[#191919] transition-colors ">
               <FaEnvelope className="text-xl sm:text-2xl text-[#00917d]" />
-              <a href="mailto:drlopezmoris@gmail.com" className="text-lg font-light mr-8 md:text-base truncate max-w-[200px] lg:max-w-none">
-                drlopezmoris@gmail.com
+              <a href="mailto:contacto@drlopezmoris.com" className="text-lg font-light mr-8 md:text-base truncate max-w-[200px] lg:max-w-none">
+                contacto@drlopezmoris.com
               </a>
             </div>
           </div>
