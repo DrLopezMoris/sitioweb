@@ -161,7 +161,7 @@ export default function Footer() {
           
           <div className="mt-3 md:mt-0">
             <p className="text-gray-400 text-xs">
-              Desarrollado por <a href="#" className="text-[#2bc37f] hover:underline">Sintergia</a>
+              Desarrollado por <a href="https://sintergiastudio.com" className="text-[#2bc37f] hover:underline">Sintergia</a>
             </p>
           </div>
         </div>
