@@ -2,10 +2,10 @@
 const FAQ = () => {
     return (
       <section id="faq" className="z-10 bg-gray-50 py-12 px-4 md:px-8">
-        <div className="max-w-4xl mx-auto shadow-lg rounded-lg">
-          <h2 className="text-3xl font-bold text-center text-secondary">Preguntas Frecuentes</h2>
-          <div className="p-4 mt-8 space-y-4">
-            <div className="border-b pb-4">
+        <div className="max-w-4xl mx-auto shadow-lg rounded-lg border-1 mb-8">
+          <h2 className="text-3xl font-bold text-center text-secondary  mt-4 pt-4">Preguntas Frecuentes</h2>
+          <div className="p-8 mt-8 space-y-4">
+            <div className="border-b pb-4 ">
               <h3 className="text-xl font-semibold">¿Cuánto dura la recuperación?</h3>
               <p className="mt-2 text-gray-600">
                 La recuperación es escalonada y varía según el tipo de actividad.

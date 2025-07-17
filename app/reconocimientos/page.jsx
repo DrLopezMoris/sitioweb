@@ -146,7 +146,7 @@ export default function ReconocimientosPage() {
     <main className={`${montserrat.variable} ${lato.variable}`}>
       <Header />
       
-      <div className="container mx-auto px-4 py-12 border-x-2  bg-clip-content p-3">
+      <div className="container mx-auto px-4 py-12  bg-clip-content p-3">
         <section className="text-left mb-16 border-b-2 mx-4 px-4">
           <h1 className={`text-4xl font-bold mb-4 ${montserrat.className} text-secondary`}>
             Mi Trayectoria

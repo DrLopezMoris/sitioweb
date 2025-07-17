@@ -92,6 +92,18 @@ export default function Footer() {
                 <span className="w-1.5 h-1.5 bg-[#2bc37f] rounded-full mr-2"></span>
                 Reconocimientos
               </Link>
+              <Link href="/gallery" className="text-gray-300 hover:text-[#2bc37f] transition-colors flex items-center">
+                <span className="w-1.5 h-1.5 bg-[#2bc37f] rounded-full mr-2"></span>
+                Antes y Después
+              </Link>
+              <Link href="/multimedia" className="text-gray-300 hover:text-[#2bc37f] transition-colors flex items-center">
+                <span className="w-1.5 h-1.5 bg-[#2bc37f] rounded-full mr-2"></span>
+                Multimedias
+              </Link>
+              <Link href="/rhinoscopy" className="text-gray-300 hover:text-[#2bc37f] transition-colors flex items-center">
+                <span className="w-1.5 h-1.5 bg-[#2bc37f] rounded-full mr-2"></span>
+                Rhinoscopy
+              </Link>
               
               <Link href="/preguntas" className="text-gray-300 hover:text-[#2bc37f] transition-colors flex items-center">
                 <span className="w-1.5 h-1.5 bg-[#2bc37f] rounded-full mr-2"></span>

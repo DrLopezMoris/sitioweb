@@ -10,6 +10,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        petit: ['var(--font-petit-formal)', 'cursive'],
+        roboto: ['var(--font-roboto)', 'sans-serif'],
+      },
       colors: {
         // Agregar colores personalizados
         heroui: {

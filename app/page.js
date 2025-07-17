@@ -9,13 +9,18 @@ import PerfilView from "@/components/PerfilView";
 import Diploma from "@/components/Diploma";
 import Faq from "@/components/Faq";
 import Footer from "@/components/Footer";
+import HomeGallerySection from "@/components/HomeGallerySection"; 
+import ReviewsHighlight from "@/components/ReviewsHighlight";
+import MultimediaSection from "@/components/MultimediaSection";
+import RhinoscopySection from '../components/RhinoscopySection';
+
 
 export default function Home() {
   return (
     <HeroUIProvider>
       <Header />
 
-      <main className="relative z-10">
+      <main className="relative z-20">
         {/* Contenedor del fondo */}
         <div className="fixed inset-0 w-full h-screen -z-10">
           {/* Imagen de fondo */}
@@ -35,6 +40,10 @@ export default function Home() {
         <Hero />
         <PerfilView />
         <Diploma />
+        <HomeGallerySection />
+        <ReviewsHighlight />
+        <MultimediaSection />
+        <RhinoscopySection />
         <Faq />
         <Footer />
       </main>

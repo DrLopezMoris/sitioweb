@@ -92,7 +92,12 @@ export default function Header() {
     { path: '/', label: 'Inicio' },
     { path: '/perfil', label: 'Perfil' },
     { path: '/reconocimientos', label: 'Reconocimientos' },
+    
+    { path: '/gallery', label: 'Antes y Despues' },
+    { path: '/multimedia', label: 'Multimedias' },
+    { path: '/rhinoscopy', label: 'Rhinoscopy' },
     { path: '/preguntas', label: 'Preguntas Frecuentes' },
+    
     
   ];
 
@@ -248,7 +253,7 @@ export default function Header() {
             <div className="flex items-center gap-2 py-2">
               <FaEnvelope className="text-xl text-[#383b60]" />
               <a href="mailto:drcarloslopezmoris@gmail.com" className="text-base font-normal">
-                drlopezmoris@gmail.com
+                contacto@drlopezmoris.com
               </a>
             </div>
             

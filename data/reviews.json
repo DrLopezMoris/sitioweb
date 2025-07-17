@@ -1,0 +1,50 @@
+
+[
+  {
+    "id": 1,
+    "author_name": "Maria Casanegra",
+    "text": "Yo tenía el tabique desviado y el doctor López Moris me operó el martes pasado. Tanto él como todo su equipo profesional son muy atentos en todo. El ambiente en plena cirugía lo sentí muy cómodo y acogedor. Tuve mucha suerte en haberlo encontrado y que me haya dado una solución rápida a mi problema. Recomiendo mucho que se atiendan con este doctor.",
+    "rating": 5,
+    "review_date": "2025-04-21",
+    "review_url": "https://g.co/kgs/kTPfG7h",
+    "is_active": true
+  },
+  {
+    "id": 2,
+    "author_name": "Soledad Iglesias",
+    "text": "Profesional dedicado, desde la primera consulta fue amable, paciente, y se tomó todo el tiempo necesario para explicarme detalladamente cada paso del procedimiento que me tenía que realizar y de la cirugía en sí. Más allá de lo profesional, que sin dudas es importante, tiene un trato cordial y comprensivo con el paciente, tan necesario cuando uno está con algún tema de salud. Destaco también la amabilidad y buena disposición de Florencia, su secretaria, hacen un buen equipo!",
+    "rating": 5,
+    "review_date": "2025-02-11",
+    "review_url": "https://g.co/kgs/VyBbtG4",
+    "is_active": true
+  },
+  {
+    "id": 3,
+    "author_name": "Sofia Ploschuk",
+    "text": "Me hice un cirugía funcional de nariz. Apenas me sacaron los tapones ya sentí que respiraba mejor. A pesar de la corrección de tabique, fue muy poco invasiva la intervención y a los pocos días ya tenia vida normal. No tuve hinchazón ni moretones ni complicaciones de ninguna índole. Además Carlos me explicó todo de entrada, me sentí siempre cuidada. Flor, la secretaria, un amor también. Súper recomendable.",
+    "rating": 5,
+    "review_date": "2025-02-10",
+    "review_url": "https://g.co/kgs/qumzLLo",
+    "is_active": true
+  },
+  {
+    "id": 4,
+    "author_name": "Marcio Masino",
+    "text": "El Dr. López Moris atendió a mi papá con un profesionalismo y dedicación que nos dejó muy satisfechos. No solo fue preciso en el diagnóstico, sino que también mostró un trato muy cálido y respetuoso hacia él, explicando cada paso del tratamiento con claridad. Mi papá se sintió muy bien atendido y los resultados fueron excelentes.",
+    "rating": 5,
+    "review_date": "2024-02-09",
+    "review_url": "https://g.co/kgs/yeeiYVP",
+    "is_active": true
+  },
+  {
+    "id": 5,
+    "author_name": "Martín Hernán Soto",
+    "text": "Me operé con el Dr. López Moris en el mes de Marzo de 2025 en el CEMIC, por una sinusitis grave que venía sufriendo hace años, tabique desviado, pólipos nasales, entre otras cosas.\nEl Dr. López Moris es un excelente medico, con muchísimo conocimiento en lo que hace y con un trato humano de los que lamentablemente ya no hay.\n\nDesde el primer momento el Dr. me explicó todo con lujo de detalle, de forma que no me quedara ninguna duda.\n\nLa cirugía fue un éxito. Hoy en día respiro muchísimo mejor.\n\nMe cambio la vida.\nGracias Dr!!!",
+    "rating": 5,
+    "review_date": "2024-01-15",
+    "review_url": "#",
+    "is_active": true
+}
+  
+ 
+]

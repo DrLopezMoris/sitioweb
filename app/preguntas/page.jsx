@@ -47,7 +47,7 @@ export default function PreguntasPage() {
                             </div>
                             <div>
                             <h3 className="text-xl font-semibold">Instrucciones para el postoperatorio. </h3>
-                                    <ul class="list-disc pl-5 space-y-2 text-gray-600"> {/* Clases Tailwind para estilo */}
+                                    <ul className="list-disc pl-5 space-y-2 text-gray-600"> {/* Clases Tailwind para estilo */}
                                         <li>
                                         Debe evitar sonarse la nariz, en cambio, puede inspirar profundamente por la nariz sin riesgos.
                                         </li>

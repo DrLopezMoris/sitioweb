@@ -1,0 +1,67 @@
+
+[
+  {
+    "id": 1,
+    "title": "Entrevista sobre Rinoplastia Ultrasónica",
+    "description": "Una entrevista detallada sobre las ventajas de la rinoplastia ultrasónica y el proceso de recuperación.",
+    "youtube_url": "https://youtu.be/40A9xfVD7Wk?si=uqHDdRygh_HYmAII", 
+    "file": null,
+    "multimedia_type": "video",
+    "upload_date": "2024-06-25T10:00:00Z"
+  },
+  {
+    "id": 2,
+    "title": "Conferencia - Avances en Otorrinolaringología",
+    "description": "El Dr. López Moris presenta los últimos avances en el tratamiento de afecciones de oído, nariz y garganta.",
+    "youtube_url": "https://youtu.be/-WCBVUcfm_w?si=CUEHDDfANoejWZ4U", 
+    "file": null,
+    "multimedia_type": "video",
+    "upload_date": "2024-06-18T14:30:00Z"
+  },
+  {
+    "id": 3,
+    "title": "Infografía: Preparación para tu Cirugía",
+    "description": "Guía visual con los pasos clave para prepararte antes de tu intervención quirúrgica.",
+    "youtube_url": null,
+    "file": "/multimedia/m1.jpg", 
+    "multimedia_type": "image",
+    "upload_date": "2024-05-30T09:00:00Z"
+  },
+  {
+    "id": 4,
+    "title": "Infografía: Preparación para tu Cirugía",
+    "description": "Guía visual con los pasos clave para prepararte antes de tu intervención quirúrgica.",
+    "youtube_url": null,
+    "file": "/multimedia/m2.jpg", 
+    "multimedia_type": "image",
+    "upload_date": "2024-05-30T09:00:00Z"
+  },
+  {
+    "id": 5,
+    "title": "Infografía: Preparación para tu Cirugía",
+    "description": "Guía visual con los pasos clave para prepararte antes de tu intervención quirúrgica.",
+    "youtube_url": null,
+    "file": "/multimedia/m3.jpg", 
+    "multimedia_type": "image",
+    "upload_date": "2024-05-30T09:00:00Z"
+  },
+  {
+    "id": 6,
+    "title": "Infografía: Preparación para tu Cirugía",
+    "description": "Guía visual con los pasos clave para prepararte antes de tu intervención quirúrgica.",
+    "youtube_url": null,
+    "file": "/multimedia/m4.jpg", 
+    "multimedia_type": "image",
+    "upload_date": "2024-05-30T09:00:00Z"
+  },
+  {
+    "id": 7,
+    "title": "Infografía: Preparación para tu Cirugía",
+    "description": "Guía visual con los pasos clave para prepararte antes de tu intervención quirúrgica.",
+    "youtube_url": null,
+    "file": "/multimedia/m5.jpg", 
+    "multimedia_type": "image",
+    "upload_date": "2024-05-30T09:00:00Z"
+  }
+  
+]

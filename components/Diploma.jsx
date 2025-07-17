@@ -67,25 +67,24 @@ export default function Reconocimientos() {
   ];
 
   return (
-    <section className="py-16 bg-gray-50 relative">
+    <section className="h-screen content-center py-16 bg-gray-50 relative">
       <div className="container mx-auto px-4">
         {/* Título */}
         <motion.div
-          className="text-center mb-12"
+          className="text-left mb-12 border-b-2 border-primary"
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <div className="flex justify-center items-center mb-6">
-            <FaTrophy className="text-[#FFD700] text-4xl mr-2" />
-            <h2 className="text-xl font-semibold text-secondary md:text-4xl md:font-bold">
+          
+            <h2 className="text-3xl font-bold text-secondary md:text-3xl mb-4">
               Mi Formación y Reconocimientos
             </h2>
-          </div>
-          <p className="text-gray-600 max-w-2xl mx-auto text-xl">
+          
+          {/* <p className="text-gray-600 max-w-2xl mx-auto text-xl">
             Con más de 15 años de experiencia. Cada etapa, cada formación, cada logro, fue construyendo al profesional que soy hoy.
-          </p>
+          </p> */}
         </motion.div>
 
         {/* Botones personalizados */}
@@ -113,10 +112,7 @@ export default function Reconocimientos() {
             prevEl: '.swiper-button-prev-custom',
             nextEl: '.swiper-button-next-custom',
           }}
-          pagination={{
-            clickable: true,
-            dynamicBullets: true,
-          }}
+          
           className="pb-12"
         >
           {reconocimientos.map((diploma) => (
@@ -168,7 +164,7 @@ export default function Reconocimientos() {
         >
           <a
             href="/reconocimientos"
-            className="text-[#2bc37f] hover:text-[#1e9d68] font-light inline-flex items-center transition-colors"
+            className="text-primary hover:text-secondary font-semibold inline-flex items-center transition duration-300 hover:scale-105"
           >
             Ver todos los reconocimientos
             <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
@@ -181,13 +177,13 @@ export default function Reconocimientos() {
       {/* Modal de imagen */}
       {modalOpen && (
         <div
-          className="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50"
+          className="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50 "
           onClick={closeModal}
         >
           <img
             src={selectedImage}
             alt="Diploma ampliado"
-            className="max-w-[90%] max-h-[90%] rounded-xl shadow-lg transition-transform duration-300 scale-100"
+            className="max-w-[90%] max-h-[90%] rounded-xl shadow-lg transition-transform duration-300 scale-100 "
           />
         </div>
       )}

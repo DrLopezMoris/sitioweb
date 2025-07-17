@@ -1,0 +1,44 @@
+
+[
+  {
+    "id": 1,
+    "title": "Rinoplastia - Antes y Después",
+    "description": "Una transformación que mejora el perfil y la armonía facial.",
+    "is_featured": true,
+    "images": [
+      {
+        "id": 101,
+        "image": "/gallery/rinoplastia-01-frontal.jpg",
+        
+        "order": 0
+      },
+      {
+        "id": 102,
+        "image": "/gallery/rinoplastia-01-perfil.jpg",
+        
+        "order": 1
+      },
+      {
+        "id": 201,
+        "image": "/gallery/otoplastia-01.jpg",
+        
+        "order": 0
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Otoplastia - Orejas en Asa",
+    "description": "Corrección de las orejas prominentes para un aspecto más natural.",
+    "is_featured": false,
+    "images": [
+      {
+        "id": 201,
+        "image": "/gallery/otoplastia-01.jpg",
+        
+        "order": 0
+      }
+    ]
+  }
+  
+]

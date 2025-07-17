@@ -1,0 +1,32 @@
+
+[
+  {
+    "id": 1,
+    "title": "Webinar: Avances en Rinoscopia",
+    "image": "/rhinoscopy/flayer.png",
+    "event_date": "2024-07-15",
+    "is_active": true
+  },
+  {
+    "id": 2,
+    "title": "Taller Práctico de Endoscopia Nasal",
+    "image": "/rhinoscopy/flayer2.jpg",
+    "event_date": "2024-08-01",
+    "is_active": true
+  },
+  {
+    "id": 3,
+    "title": "Taller Práctico de Endoscopia Nasal",
+    "image": "/rhinoscopy/flayer3.jpg",
+    "event_date": "2024-08-01",
+    "is_active": true
+  },
+  {
+    "id": 4,
+    "title": "Taller Práctico de Endoscopia Nasal",
+    "image": "/rhinoscopy/flayer4.jpg",
+    "event_date": "2024-08-01",
+    "is_active": true
+  }
+
+]

@@ -1,4 +1,4 @@
-import { Montserrat, Roboto_Slab } from "next/font/google";
+import { Montserrat, Roboto_Slab, Petit_Formal_Script, } from "next/font/google";
 import "./globals.css";
 
 // CARGA DE FUENTES
@@ -12,6 +12,13 @@ const robotoSlab = Roboto_Slab({
   variable: "--font-roboto-slab",
   subsets: ["latin"],
   weight: ["400", "700"],
+});
+
+
+const petitFormal = Petit_Formal_Script({
+  subsets: ['latin'],
+  weight: ['400'], // Solo tiene un peso
+  variable: '--font-petit-formal',
 });
 
 // SEO METADATA
@@ -77,7 +84,7 @@ export default function RootLayout({ children }) {
         <meta name="author" content="Sintergia Studio" />
       </head>
       <body
-        className={`${montserrat.variable} ${robotoSlab.variable} antialiased`}
+        className={`${montserrat.variable} ${robotoSlab.variable} ${petitFormal.variable} antialiased`}
       >
         {children}
       </body>
